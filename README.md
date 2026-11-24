@@ -25,4 +25,4 @@ npm run dev      # helyi szerver
 npm run build    # éles build a dist/ mappába
 ```
 
-A `main` ágra pusholva a GitHub Actions automatikusan kiteszi a GitHub Pagesre.
+A `main` ágra pusholva a GitHub Actions lebuildeli és a `gh-pages` ágra teszi, onnan szolgálja ki a GitHub Pages.
